@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #546E7A;
+  
+}
+#main{
+  margin: 5px auto 30px auto;
+}
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+#image {
+  max-width: 100%;
+  width: auto;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+#avicii-logo {
+  max-width: 50%;
+  width: auto;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+#img-div {
+  margin-top: 1.6rem;
+}
+#img-caption {
+  font-size: 1.5rem;
+  max-width: 1020px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+#headline {
+  margin: 50px auto 20px auto;
+  text-align: center;
+}
+
+ul {
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 2.0;
+}
+li {
+  margin-top: 15px;
+}
+
+a {
+  color: #477ca7;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #74638f;
+}
+#avicii-logo {
+  height: auto;
+  width: 200px;
+}
+
+@media (max-width: 1000px) {
+  #avicii-logo {
+    height: auto;
+    width: 120px;
+}
+}
+
+
+
+@media (max-width: 560px){
+  ul {
+    max-width: 400px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.2;
+  }
+  #avicii-logo {
+    height: auto;
+    width: 90px;
+}
+}
