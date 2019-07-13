@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400, 500);
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, sans-serif, Arial, Helvetica, sans-serif;
+  background-color: #34495e;
+  min-width: 320px;
+  text-align: center;
+  color: white;
+}
+header {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 20px;
+}
+#title {
+  letter-spacing: 2px;
+  color: #358dff;
+}
+#form-bg {
+  background-color: #2e3f52;
+  opacity: 0.7;
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px;
+  padding-top: 20px;
+  border-radius: 5px;
+}
+/* styling form labels and boxes */
+
+.row-line {
+  padding-top: 20px;
+}
+.labels {
+  display: inline-block;
+  font-size: 17px;
+  text-align: right;
+  width: 40%;
+  margin-top: 10px;
+  padding: 4px;
+  vertical-align: top;
+}
+.right-boxes {
+  width: 48%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #7d8fa1;
+  border-radius: 2px;
+  color: white;
+  background-color: #2e3f52;
+}
+.dropdown {
+  height: 35px;
+  width: 160px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 15px;
+  background-color: #34495e;
+  color: white;
+  border: 1px solid #7d8fa1;
+  border-radius: 2px;
+}
+.radio,
+.checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+#submit {
+  background-color: #358dff;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+}
+.userRatings,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+.right-boxes textarea {
+  height: 50px;
+  max-width: 100%;
+}
+@media screen and (max-width: 933px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .right-boxes {
+    width: 80%;
+    float: left;
+  }
+  .input-field,
+  select {
+    width: 100%;
+  }
+}
